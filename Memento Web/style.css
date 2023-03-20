@@ -1,0 +1,112 @@
+:root
+{
+    --rs_length: 12rem;
+    --shadow: 0.5rem
+}
+
+body
+{
+    background: linear-gradient(#16E3FF, #C8F8FF);
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.roundSquare
+{
+    width: var(--rs_length);
+    height: var(--rs_length);
+    border-radius: 2rem;
+    padding: 0;
+    border: 0;
+}
+
+.buttonText
+{
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+#allDecks
+{
+    position: relative;
+    left: 50%;
+    top: 10rem;
+    transform: translate(-50%);
+    background-color: #32FF6B;
+    box-shadow: 0 var(--shadow) 0 #00CC38;
+}
+
+#allDecks:hover
+{
+    background-color: #19FF1F;
+}
+
+#allDecks:active
+{
+    box-shadow: none;
+    transform: translate(-50%, var(--shadow))
+}
+
+#buttonText1
+{
+    top: 10.5rem;
+}
+
+#currentDeck
+{
+    position: relative;
+    left: 50%;
+    top: 12rem;
+    transform: translate(-50%);
+    background-color: #F5FF87;
+    box-shadow: 0 var(--shadow) 0 #E9EE00;
+}
+
+#currentDeck:hover
+{
+    background-color: #E5FF67;
+}
+#currentDeck:active
+{
+    box-shadow: none;
+    transform: translate(-50%, var(--shadow))
+}
+
+#buttonText2
+{
+    top: 12.5rem;
+}
+
+#rs_Shadow_ad1
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#rs_Shadow_ad2
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    scale: -1;
+}
+
+#rs_Shadow_cd1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#rs_Shadow_cd2
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    scale: -1;
+}
+

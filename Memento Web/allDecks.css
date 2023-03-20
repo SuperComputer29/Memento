@@ -1,0 +1,89 @@
+:root
+{
+    --rs_length: 12rem;
+    --shadow: 0.5rem;
+    --rc_length: 20rem;
+}
+
+body
+{
+    background: linear-gradient(#FC63FF, #00C2FF);
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.roundSquare
+{
+    width: var(--rs_length);
+    height: var(--rs_length);
+    border-radius: 2rem;
+    padding: 0;
+    border: 0;
+}
+
+.roundCircle
+{
+    border-radius: 50%;
+    padding: 0;
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonText
+{
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+#newDeck
+{
+    width: var(--rc_length);
+    height: var(--rc_length);
+    position: relative;
+    left: 50%;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    background-color: #00FF29;
+}
+
+#newDeck:hover
+{
+    opacity: 90%;
+}
+
+#newDeck:active
+{
+    opacity: 80%;
+}
+#whiteShadow
+{
+    position: absolute;
+    top: 11.3%;
+    left: 7.06%;
+    width: 28.39%;
+}
+
+#greenShadow
+{
+    position: absolute;
+    width: 35.3%;
+    bottom: 7.05%;
+    right: 5.65%;
+}
+
+#playingCards
+{
+    width: 68.93%;
+}
+
+#newDeck_text
+{
+    position: relative;
+    top: 13rem;
+    font-size: xx-large;
+    color: white;
+}
+
