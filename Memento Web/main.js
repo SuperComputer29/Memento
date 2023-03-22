@@ -1,6 +1,17 @@
-document.getElementById("allDecks").onclick = function() {redirect()};
+const allDecks_btn = document.getElementById("allDecks")
+const currentDeck_btn = document.getElementById("currentDeck")
+var timeDelay = 150 // in milliseconds
 
-function redirect()
+allDecks_btn.addEventListener("click", e =>
 {
-    window.location.href('allDecks.html');
-}   
+    setTimeout( () =>
+    {
+        window.open("allDecks.html", "_self")
+    }, timeDelay)
+
+})
+
+currentDeck_btn.addEventListener("click", e =>
+{
+    console.log("HEY")
+})

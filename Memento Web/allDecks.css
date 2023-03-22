@@ -1,3 +1,5 @@
+@import url(style.css);
+
 :root
 {
     --rs_length: 12rem;
@@ -47,6 +49,7 @@ body
     top: 50vh;
     transform: translate(-50%, -50%);
     background-color: #00FF29;
+    transition: transform 800ms cubic-bezier(.16,.77,.44,.92)
 }
 
 #newDeck:hover
@@ -77,6 +80,11 @@ body
 #playingCards
 {
     width: 68.93%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 #newDeck_text

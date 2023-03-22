@@ -47,7 +47,8 @@ body
 #allDecks:active
 {
     box-shadow: none;
-    transform: translate(-50%, var(--shadow))
+    transform: translate(-50%, var(--shadow));
+    transition: 150ms;
 }
 
 #buttonText1
