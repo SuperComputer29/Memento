@@ -22,6 +22,14 @@ body
     border: 0;
 }
 
+.roundCircle
+{
+    border-radius: 50%;
+    padding: 0;
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .buttonText
 {
     font-family: 'Inter', sans-serif;
@@ -35,13 +43,13 @@ body
     left: 50%;
     top: 10rem;
     transform: translate(-50%);
-    background-color: #32FF6B;
+    background-color: #7DFFA1;
     box-shadow: 0 var(--shadow) 0 #00CC38;
 }
 
 #allDecks:hover
 {
-    background-color: #19FF1F;
+    background-color: #32FF6B;
 }
 
 #allDecks:active
@@ -62,13 +70,13 @@ body
     left: 50%;
     top: 12rem;
     transform: translate(-50%);
-    background-color: #F5FF87;
+    background-color: #F1FFB9;
     box-shadow: 0 var(--shadow) 0 #E9EE00;
 }
 
 #currentDeck:hover
 {
-    background-color: #E5FF67;
+    background-color: #F5FF87;
 }
 #currentDeck:active
 {
@@ -111,3 +119,12 @@ body
     scale: -1;
 }
 
+#allDecks path
+{
+    fill: #32FF6B;
+}
+
+#currentDeck path
+{
+    fill: #F5FF87;
+}
