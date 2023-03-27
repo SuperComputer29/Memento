@@ -108,8 +108,8 @@ newDeck_btn.addEventListener("click", () =>
   shadow2.src = shadow2_URI
   shadow2.id = "rs_Shadow_ad2"
   shadow2.draggable = "false"
-  buttonText.innerHTML = "Ur mom lmao 🫵🤣"
-  icon.innerHTML = "🫵"
+  buttonText.innerHTML = "Untitled"
+  icon.innerHTML = "🥰"
 
   deckContainer.appendChild(newDeck_card)
   newDeck_card.appendChild(shadow1)
