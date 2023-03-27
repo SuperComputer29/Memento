@@ -54,8 +54,6 @@ newDeck_btn.addEventListener("click", () =>
   src: url('AppleColorEmoji.ttf') format('truetype');
   font-size: 5rem;
   `
-
-  icon.isContentEditable = "true"
   
   deckContainer.style.cssText = // Fix the apparent positioning problem here
   `
@@ -111,11 +109,16 @@ newDeck_btn.addEventListener("click", () =>
   buttonText.innerHTML = "Untitled"
   icon.innerHTML = "🥰"
 
+  icon.contentEditable = "true"
+  buttonText.contentEditable = "true"
+
   deckContainer.appendChild(newDeck_card)
   newDeck_card.appendChild(shadow1)
   newDeck_card.appendChild(shadow2)
   newDeck_card.appendChild(buttonText)
   newDeck_card.appendChild(icon)
 })
+
+
 
 
